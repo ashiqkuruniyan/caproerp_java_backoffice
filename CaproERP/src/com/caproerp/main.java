@@ -14,7 +14,8 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Main_1 main =new Main_1();
+        main.setVisible(true);
     }
     
 }
