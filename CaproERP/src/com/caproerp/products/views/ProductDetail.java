@@ -80,7 +80,7 @@ public class ProductDetail extends javax.swing.JFrame {
         jComboBox8 = new javax.swing.JComboBox<>();
         jLabel23 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        jButtonNew = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
@@ -266,7 +266,12 @@ public class ProductDetail extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("New");
+        jButtonNew.setText("New");
+        jButtonNew.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonNewActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Save");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -364,7 +369,7 @@ public class ProductDetail extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jButtonNew, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(36, 36, 36))
         );
         jPanel1Layout.setVerticalGroup(
@@ -473,7 +478,7 @@ public class ProductDetail extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButtonNew, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(40, 40, 40))
         );
 
@@ -554,6 +559,23 @@ public class ProductDetail extends javax.swing.JFrame {
         dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButtonNewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNewActionPerformed
+     jTextField23.setText("");
+    jTextField24.setText("");
+    jTextField25.setText("");
+    jTextField26.setText("");
+    jTextField27.setText("");
+    jTextField28.setText("");
+    jTextField29.setText("");
+    jTextField30.setText("");
+    jTextField31.setText("");
+    jTextField32.setText("");
+    jTextField33.setText("");
+    jTextField34.setText("");
+    jTextField35.setText("");
+    jTextField36.setText("");    // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonNewActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -591,8 +613,8 @@ public class ProductDetail extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButtonNew;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JComboBox<String> jComboBox1;
