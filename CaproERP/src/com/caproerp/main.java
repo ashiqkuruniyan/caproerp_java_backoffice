@@ -4,6 +4,8 @@
  */
 package com.caproerp;
 
+import com.caproerp.branch.Dto.BranchDto;
+
 /**
  *
  * @author PNG
@@ -16,6 +18,7 @@ public class main {
     public static void main(String[] args) {
         Main_1 main =new Main_1();
         main.setVisible(true);
+        BranchDto.getBranchList();
     }
     
 }
