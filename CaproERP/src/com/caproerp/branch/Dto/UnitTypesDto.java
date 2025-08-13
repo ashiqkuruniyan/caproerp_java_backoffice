@@ -5,8 +5,6 @@
 package com.caproerp.branch.Dto;
 import com.caproerp.config.hibernate.NewHibernateUtil;
 import com.caproerp.model.CaproErpUnitTypes;
-
-
 import java.util.List;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
