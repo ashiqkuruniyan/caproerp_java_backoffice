@@ -33,15 +33,7 @@ public class NewHibernateUtil {
             config.addAnnotatedClass(com.caproerp.model.CaproErpRoutes.class);
             config.addAnnotatedClass(com.caproerp.model.CaproErpUnitTypes.class);
             config.addAnnotatedClass(com.caproerp.model.CaproErpUsers.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpEmployees_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpAdmin_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpBranches_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpStates_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpUsers_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpBrands_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpUnitTypes_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpCountry_1.class);
-            config.addAnnotatedClass(com.caproerp.model.CaproErpRoutes_1.class);
+
             
 
             sessionFactory = config.buildSessionFactory(serviceRegistry);
