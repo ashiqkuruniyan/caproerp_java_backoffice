@@ -6,6 +6,27 @@
     <class>com.caproerp.branch.model.CaproErpStates</class>
     <class>com.caproerp.branch.model.CaproErpAdmin</class>
     <class>com.caproerp.branch.model.CaproErpCountry</class>
+    <class>com.caproerp.model.CaproErpProducts</class>
+    <class>com.caproerp.model.CaproErpActivities</class>
+    <class>com.caproerp.model.CaproErpEmployees</class>
+    <class>com.caproerp.model.CaproErpUsers</class>
+    <class>com.caproerp.model.CaproErpBrands</class>
+    <class>com.caproerp.model.CaproErpUnitTypes</class>
+    <class>com.caproerp.model.CaproErpStates</class>
+    <class>com.caproerp.model.CaproErpRoutes</class>
+    <class>com.caproerp.model.CaproErpCountry</class>
+    <class>com.caproerp.model.CaproErpBranches</class>
+    <class>com.caproerp.model.CaproErpCategory</class>
+    <class>com.caproerp.model.CaproErpAdmin</class>
+    <class>com.caproerp.model.CaproErpEmployees_1</class>
+    <class>com.caproerp.model.CaproErpCountry_1</class>
+    <class>com.caproerp.model.CaproErpRoutes_1</class>
+    <class>com.caproerp.model.CaproErpBranches_1</class>
+    <class>com.caproerp.model.CaproErpUsers_1</class>
+    <class>com.caproerp.model.CaproErpStates_1</class>
+    <class>com.caproerp.model.CaproErpAdmin_1</class>
+    <class>com.caproerp.model.CaproErpBrands_1</class>
+    <class>com.caproerp.model.CaproErpUnitTypes_1</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/capro_erp_db_test?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
       <property name="javax.persistence.jdbc.user" value="root"/>

@@ -6,6 +6,7 @@ package com.caproerp;
 
 import com.caproerp.branch.Dto.BranchDto;
 
+import com.caproerp.branch.Dto.ProductDto;
 /**
  *
  * @author PNG
@@ -19,6 +20,10 @@ public class main {
         Main_1 main =new Main_1();
         main.setVisible(true);
         BranchDto.getBranchList();
+          ProductDto.getProductList().forEach(product -> {
+            System.out.println(product.getProductName());
+        });
+          
     }
     
 }
