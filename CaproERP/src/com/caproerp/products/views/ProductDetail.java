@@ -222,7 +222,6 @@ public class ProductDetail extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(41, 41, 41)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jTextField37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField39, javax.swing.GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
                             .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -233,7 +232,8 @@ public class ProductDetail extends javax.swing.JFrame {
                             .addComponent(jTextField45, javax.swing.GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
                             .addComponent(jLabel33, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField47, javax.swing.GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
-                            .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(33, 33, 33)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jTextField38, javax.swing.GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
@@ -530,11 +530,7 @@ public class ProductDetail extends javax.swing.JFrame {
         jTextField46.setText("");
         jTextField47.setText("");
         jTextField48.setText("");
-        jTextField51.setText("");
-        jTextField52.setText("");
-        jTextField53.setText("");
-        jTextField54.setText("");
-        jTextField55.setText("");
+        
         jCheckBox1.setSelected(false);
         jCheckBox2.setSelected(false);// TODO add your handling code here:
     }//GEN-LAST:event_jButtonNew2ActionPerformed
@@ -574,11 +570,7 @@ public class ProductDetail extends javax.swing.JFrame {
         jTextField46.setText("");
         jTextField47.setText("");
         jTextField48.setText("");
-        jTextField51.setText("");
-        jTextField52.setText("");
-        jTextField53.setText("");
-        jTextField54.setText("");
-        jTextField55.setText("");
+       
         jCheckBox1.setSelected(false);
         jCheckBox2.setSelected(false);// TODO add your handling code here:
     }//GEN-LAST:event_jButtonNew1ActionPerformed
@@ -724,10 +716,5 @@ public class ProductDetail extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField46;
     private javax.swing.JTextField jTextField47;
     private javax.swing.JTextField jTextField48;
-    private javax.swing.JTextField jTextField51;
-    private javax.swing.JTextField jTextField52;
-    private javax.swing.JTextField jTextField53;
-    private javax.swing.JTextField jTextField54;
-    private javax.swing.JTextField jTextField55;
     // End of variables declaration//GEN-END:variables
 }

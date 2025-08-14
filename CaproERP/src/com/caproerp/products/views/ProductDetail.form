@@ -49,7 +49,6 @@
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jTextField37" alignment="0" max="32767" attributes="0"/>
                                   <Component id="jLabel25" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
                                   <Component id="jTextField39" alignment="0" pref="248" max="32767" attributes="0"/>
                                   <Component id="jLabel27" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
@@ -61,6 +60,7 @@
                                   <Component id="jLabel33" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
                                   <Component id="jTextField47" alignment="0" pref="248" max="32767" attributes="0"/>
                                   <Component id="jLabel35" alignment="0" min="-2" pref="167" max="-2" attributes="0"/>
+                                  <Component id="jTextField37" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">

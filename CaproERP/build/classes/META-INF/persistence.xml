@@ -27,6 +27,7 @@
     <class>com.caproerp.model.CaproErpAdmin_1</class>
     <class>com.caproerp.model.CaproErpBrands_1</class>
     <class>com.caproerp.model.CaproErpUnitTypes_1</class>
+    <class>com.caproerp.model.CaproErpExpenses</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/capro_erp_db_test?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
       <property name="javax.persistence.jdbc.user" value="root"/>

@@ -3,37 +3,35 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpBrands_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpUsers.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/config/hibernate/NewHibernateUtil.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpAdmin_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/Dto/BrandDto.java</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/products/views/ProductDetail.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpEmployees.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpProducts.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/main.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/Dto/UnitTypesDto.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpBrands.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/routes/view/RoutesDetails.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpStates_1.java</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/Dto/ExpensesDto.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpCountry.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpBranches_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/views/BranchDetails.java</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/Dto/EmployeeDto.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpProductsPK.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpUsers_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpUnitTypes.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpEmployees_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpCategory.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/Dto/BranchDto.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpUnitTypes_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpStates.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpRoutes.java</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/products/views/BrandDetails.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpActivities.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpRoutes_1.java</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/employee/views/EmployeeDetails.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpAdmin.java</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpExpenses.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/branch/Dto/ProductDto.java</file>
-            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpCountry_1.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/model/CaproErpBranches.java</file>
             <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/hibernate.cfg.xml</file>
+            <file>file:/E:/data%20(D)/project/caproerp_java_backoffice/CaproERP/src/com/caproerp/expenses/views/ExpensesDetails.java</file>
         </group>
     </open-files>
 </project-private>

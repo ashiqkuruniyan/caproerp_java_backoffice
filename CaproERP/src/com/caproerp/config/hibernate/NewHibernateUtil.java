@@ -33,6 +33,7 @@ public class NewHibernateUtil {
             config.addAnnotatedClass(com.caproerp.model.CaproErpRoutes.class);
             config.addAnnotatedClass(com.caproerp.model.CaproErpUnitTypes.class);
             config.addAnnotatedClass(com.caproerp.model.CaproErpUsers.class);
+            config.addAnnotatedClass(com.caproerp.model.CaproErpExpenses.class);
 
             
 
