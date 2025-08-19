@@ -16,14 +16,18 @@ import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import com.caproerp.Application;
+import com.caproerp.categories.views.CategoryDetails;
 import com.caproerp.form.other.Dashboard;
 //import com.caproerp.form.other.FormDashboard;
 import com.caproerp.form.other.FormInbox;
 import com.caproerp.form.other.FormRead;
 import com.caproerp.menu.Menu;
 import com.caproerp.menu.MenuAction;
+import com.caproerp.parties.views.LedgerDetails;
+import com.caproerp.payments.view.PaymentDetails;
 import com.caproerp.products.views.BrandDetail;
 import com.caproerp.products.views.ProductsDetails;
+import com.caproerp.routes.view.RouteDetails;
 
 /**
  *
@@ -85,11 +89,20 @@ public class MainForm extends JLayeredPane {
                     case 2:
                         Application.showForm(new FormRead());
                         break;
+                    case 3:
+                        Application.showForm(new FormRead());
+                        break;
+                    case 4:
+                        Application.showForm(new FormRead());
+                        break;
+                    case 5:
+                        Application.showForm(new PaymentDetails());
+                        break;
                     default:
                         action.cancel();
                         break;
                 }
-break;
+                break;
 
                 case 2:
                     switch (subIndex) {
@@ -99,11 +112,26 @@ break;
                     case 2:
                         Application.showForm(new BrandDetail());
                         break;
+                    case 3:
+                        Application.showForm(new CategoryDetails());
+                        break;
                     default:
                         action.cancel();
                         break;
                 }
-                break;    
+                break;
+                case 3:
+                    switch (subIndex) {
+                        case 1:
+                            Application.showForm(new LedgerDetails());
+                            break;
+                        case 2:
+                            Application.showForm(new RouteDetails());
+                            break;
+                        default:
+                            throw new AssertionError();
+                    }
+                    break;
                 case 9:
                     Application.logout();
                     break;
