@@ -15,6 +15,8 @@ public class ProductsDetails extends javax.swing.JPanel {
      */
     public ProductsDetails() {
         initComponents();
+       
+         
     }
 
     /**
@@ -80,6 +82,8 @@ public class ProductsDetails extends javax.swing.JPanel {
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButtonNew2 = new javax.swing.JButton();
+
+        jTabbedPane1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
         jLabel25.setText("Product Name");
 
