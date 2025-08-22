@@ -16,12 +16,9 @@ import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import com.caproerp.Application;
-<<<<<<< HEAD
 import com.caproerp.categories.views.CategoryDetails;
-=======
 import com.caproerp.employee.views.EmployeesDetails;
 import com.caproerp.expenses.views.ExpenseDetail;
->>>>>>> 1bfef153545430d2905e89aedf1afa7591b96837
 import com.caproerp.form.other.Dashboard;
 //import com.caproerp.form.other.FormDashboard;
 import com.caproerp.form.other.FormInbox;
@@ -32,11 +29,9 @@ import com.caproerp.parties.views.LedgerDetails;
 import com.caproerp.payments.view.PaymentDetails;
 import com.caproerp.products.views.BrandDetail;
 import com.caproerp.products.views.ProductsDetails;
-<<<<<<< HEAD
 import com.caproerp.routes.view.RouteDetails;
-=======
 import com.caproerp.products.views.UnitDetail;
->>>>>>> 1bfef153545430d2905e89aedf1afa7591b96837
+
 
 /**
  *
@@ -91,7 +86,6 @@ public class MainForm extends JLayeredPane {
                     Application.showForm(new Dashboard());
                     break;
                 case 1:
-<<<<<<< HEAD
                 switch (subIndex) {
                     case 1:
                         Application.showForm(new FormInbox());
@@ -142,43 +136,6 @@ public class MainForm extends JLayeredPane {
                             throw new AssertionError();
                     }
                     break;
-=======
-                    switch (subIndex) {
-                        case 1:
-                            Application.showForm(new FormInbox());
-                            break;
-                        case 2:
-                            Application.showForm(new FormRead());
-                            break;
-                        default:
-                            action.cancel();
-                            break;
-                    }
-                    break;
-
-                case 2:
-                    switch (subIndex) {
-                        case 1:
-                            Application.showForm(new ProductsDetails());
-                            break;
-                        case 2:
-                            Application.showForm(new BrandDetail());
-                            break;
-                        case 3:
-                            Application.showForm(new UnitDetail());
-                            break;
-                        default:
-                            action.cancel();
-                            break;
-                    }
-                    break;
-                case 4:
-                    Application.showForm(new EmployeesDetails());
-                    break;
-                case 5:
-                    Application.showForm(new ExpenseDetail());
-                    break;
->>>>>>> 1bfef153545430d2905e89aedf1afa7591b96837
                 case 9:
                     Application.logout();
                     break;
