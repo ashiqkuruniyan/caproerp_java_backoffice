@@ -251,7 +251,7 @@ public class Create extends javax.swing.JPanel {
     private ModelProfile profile;
 
     private void cmdDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdDeleteActionPerformed
-        pic.setImage(new FlatSVGIcon("sample/icon/profile.svg", 5f));
+        pic.setImage(new FlatSVGIcon("com/caproerp/sample/icon/profile.svg", 5f));
         profile = null;
     }//GEN-LAST:event_cmdDeleteActionPerformed
 

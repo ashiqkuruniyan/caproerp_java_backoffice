@@ -1,5 +1,7 @@
+
 package com.caproerp.sample.form;
 
+import com.caproerp.products.views.ProductsDetails;
 import com.formdev.flatlaf.FlatClientProperties;
 import com.formdev.flatlaf.FlatLaf;
 import com.formdev.flatlaf.extras.FlatSVGIcon;
@@ -64,7 +66,7 @@ public class Main extends javax.swing.JFrame {
                 + "font:bold +5;");
 
         txtSearch.putClientProperty(FlatClientProperties.PLACEHOLDER_TEXT, "Search...");
-        txtSearch.putClientProperty(FlatClientProperties.TEXT_FIELD_LEADING_ICON, new FlatSVGIcon("sample/icon/search.svg",0.8f));
+        txtSearch.putClientProperty(FlatClientProperties.TEXT_FIELD_LEADING_ICON, new FlatSVGIcon("com/caproerp/sample/icon/search.svg",0.8f));
         txtSearch.putClientProperty(FlatClientProperties.STYLE, ""
                 + "arc:15;"
                 + "borderWidth:0;"
@@ -266,25 +268,25 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void cmdNewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdNewActionPerformed
-        Create create = new Create();
+        ProductsDetails create = new ProductsDetails();
 //        create.loadData(service, null);
 
         SimpleModalBorder.Option[] options = new SimpleModalBorder.Option[]{
             new SimpleModalBorder.Option("Cancel", SimpleModalBorder.CANCEL_OPTION),
             new SimpleModalBorder.Option("Save", SimpleModalBorder.OK_OPTION)
         };
-        ModalDialog.showModal(this, new SimpleModalBorder(create, "Create Employee", options, (mc, i) -> {
+        ModalDialog.showModal(this, new SimpleModalBorder(create, "Create Products", options, (mc, i) -> {
             if (i == SimpleModalBorder.OK_OPTION) {
                 // save
                 try {
 //                    service.create(create.getData());
-                    Toast.show(this, Toast.Type.SUCCESS, "Employee has been created");
+                    Toast.show(this, Toast.Type.SUCCESS, "Products has been created");
 //                    loadData();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             } else if (i == SimpleModalBorder.OPENED) {
-                create.init();
+//                create.init();
             }
         }));
     }//GEN-LAST:event_cmdNewActionPerformed
@@ -370,7 +372,7 @@ public class Main extends javax.swing.JFrame {
 
     public static void main(String args[]) {
         FlatRobotoFont.install();
-        FlatLaf.registerCustomDefaultsSource("sample.themes");
+        FlatLaf.registerCustomDefaultsSource("com.caproerp.sample.themes");
         UIManager.put("defaultFont", new Font(FlatRobotoFont.FAMILY, Font.PLAIN, 13));
         FlatMacDarkLaf.setup();
 

@@ -1,14 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path d="M18,21H6c-1.657,0-3-1.343-3-3V7h18v11C21,19.657,19.657,21,18,21z" opacity=".35" fill="#969696" />
-  <path d="M18,3H6C4.343,3,3,4.343,3,6v1h18V6C21,4.343,19.657,3,18,3z" fill="#969696" />
-  <circle cx="14" cy="18" r="1" fill="#969696" />
-  <circle cx="10" cy="18" r="1" fill="#969696" />
-  <circle cx="6" cy="18" r="1" fill="#969696" />
-  <circle cx="6" cy="14" r="1" fill="#969696" />
-  <circle cx="10" cy="14" r="1" fill="#969696" />
-  <circle cx="14" cy="14" r="1" fill="#969696" />
-  <circle cx="18" cy="14" r="1" fill="#969696" />
-  <circle cx="18" cy="10" r="1" fill="#969696" />
-  <circle cx="14" cy="10" r="1" fill="#969696" />
-  <circle cx="10" cy="10" r="1" fill="#969696" />
-</svg>
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z" fill="#969696" fill-opacity=".16"/><path d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z" stroke="#969696" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/><path d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z" fill="#969696" stroke="#969696" stroke-width="1.5" stroke-miterlimit="10"/><path d="M8 11h8" stroke="#969696" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/></svg>
